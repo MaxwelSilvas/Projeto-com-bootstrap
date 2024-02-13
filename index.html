@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <title>Viagens Max</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">
+                <a class="d-flex align-items-center nav-link" href="index.html">
+                    <img src="images/logo.png" alt="Logo do site" class="me-3">
+                    <span class="p-2">Viagens Max</span>
+                </a>
+            </h1>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="navbar-collase collpase justify-content=end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex ">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-viagens">
+                            <i class="bi bi-house-door me-1"></i>
+                            Início
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#lugares-para-conhecer">
+                            <i class="bi bi-airplane"></i>
+                            Quero conhecer
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#viagem-nacional">
+                            <i class="bi bi-airplane"></i>
+                            Viagens no Brasil
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contato">
+                            <i class="bi bi-whatsapp"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-viagens">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./images/slides/1.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/slides/2.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/slides/3.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/slides/4.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container m-5">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/airplane.jpg" class="d-block w-100 rounded" alt="Aviação voando">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h3 class="fw-bold pb-1 text-center">Como foi a minha viagem?</h3>
+                            <p class="text-center">Em minhas aventuras pelo mundo, pude explorar paisagens deslumbrantes
+                                e mergulhar em
+                                culturas fascinantes. Cada viagem foi uma jornada de descobertas e memórias
+                                inesquecíveis,
+                                enriquecendo minha vida de maneiras que nunca imaginei.
+
+                            </p>
+                            <section>
+                                <h4 class="fw-bold pb-1 text-center">Viagens</h4>
+                                <div class="row mx-auto justify-content-center">
+                                    <div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+                                        <div class="card border-0 mx-auto btn" data-bs-toggle="modal"
+                                            data-bs-target="#modal-1">
+                                            <img src="./images/lugares-visitados/1.2.jpg"
+                                                class="card-img-top img-flu img-personalizadaid" alt="Café preto.">
+                                            <div class="card-body">
+                                                <h6 class="card-text text-center fw-bold">Suiça</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+                                        <div class="card border-0 mx-auto btn" data-bs-toggle="modal"
+                                            data-bs-target="#modal-2">
+                                            <img src="./images/lugares-visitados/2.2.jpg" class="card-img-top img-fluid"
+                                                alt="Café preto.">
+                                            <div class="card-body">
+                                                <h6 class="card-text text-center fw-bold">Monte Fuji</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+                                        <div class="card border-0 mx-auto btn" data-bs-toggle="modal"
+                                            data-bs-target="#modal-3">
+                                            <img src="./images/lugares-visitados/3.2.jpg" class="card-img-top img-fluid"
+                                                alt="Café preto.">
+                                            <div class="card-body">
+                                                <h6 class="card-text text-center fw-bold">Paris</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+                                        <div class="card border-0 mx-auto btn" data-bs-toggle="modal"
+                                            data-bs-target="#modal-4">
+                                            <img src="./images/lugares-visitados/4.2.jpg" class="card-img-top img-fluid"
+                                                alt="Café preto.">
+                                            <div class="card-body">
+                                                <h6 class="card-text text-center fw-bold">Toronto</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Próximas viagens -->
+
+        <section id="lugares-para-conhecer" class="pt-3 pb-3 ">
+            <div class="container text-center">
+                <div class="row">
+                    <h2 class="mb-4 pb-5 pt-5">Lugares que quero conhecer</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 pb-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/egito.jpg" class="d-block w-100 rounded mb-2" alt="Piramides">
+                                <h3>Egito</h3>
+                                <p>
+                                    Anseio por desvendar os segredos ancestrais do Egito, mergulhar na grandiosidade de
+                                    suas pirâmides e conhecer de perto a riqueza de sua história.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 pb-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/hong-kong.jpg" class="d-block w-100 rounded mb-2" alt="Hong Kong">
+                                <h3> Hong Kong</h3>
+                                <p>
+                                    Estou ansioso para explorar as ruas movimentadas e as vistas deslumbrantes de Hong
+                                    Kong, mergulhando na sua vibrante cultura urbana.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 pb-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/noruega.jpg" class="d-block w-100 rounded mb-2" alt="Noruega">
+                                <h3> Noruega</h3>
+                                <p>
+                                    Sonho em testemunhar a dança mágica da aurora boreal nos céus da Noruega, onde a
+                                    natureza revela sua mais deslumbrante e misteriosa obra de arte.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 pb-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/australia.jpg" class="d-block w-100 rounded mb-2" alt="Australia">
+                                <h3> Austrália</h3>
+                                <p>
+                                    Anseio por explorar as vastas paisagens do Outback e maravilhar-me com a imensidão
+                                    do deserto vermelho da Austrália, onde a natureza revela sua beleza selvagem e
+                                    intocada
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 pb-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/italia.jpg" class="d-block w-100 rounded mb-2" alt="Italia">
+                                <h3> Italia</h3>
+                                <p>
+                                    Mal posso esperar para perder-me pelas charmosas ruas de paralelepípedos das cidades
+                                    italianas, mergulhando na rica história, na arte e na deliciosa gastronomia que este
+                                    país mediterrâneo tem a oferecer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 pb-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/grecia.jpg" class="d-block w-100 rounded mb-2" alt="Grécia">
+                                <h3> Grécia</h3>
+                                <p>
+                                    Estou ansioso para explorar as antigas ruínas e encantadoras ilhas da Grécia, onde a
+                                    mitologia ganha vida e o azul intenso do mar Egeu se funde com o céu em um horizonte
+                                    sem fim.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Idéias para viagem nacional -->
+        <section id="viagem-nacional" class="pt-3 pb-3">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center pt-5 pb-5">Viagens para fazer no Brasil</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+
+                        <!-- Estados -->
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" class="fw-bold text-start nav-link active" data-bs-toggle="tab"
+                                data-bs-target="#estado1">Minas Gerais</button>
+                            <button type="button" class="fw-bold text-start nav-link " data-bs-toggle="tab"
+                                data-bs-target="#estado2">Pernambuco</button>
+                            <button type="button" class="fw-bold text-start nav-link " data-bs-toggle="tab"
+                                data-bs-target="#estado3">Rio Grande do Norte</button>
+                            <button type="button" class="fw-bold text-start nav-link " data-bs-toggle="tab"
+                                data-bs-target="#estado4">São Paulo</button>
+                            <button type="button" class="fw-bold text-start nav-link " data-bs-toggle="tab"
+                                data-bs-target="#estado5">Rio de Janeiro</button>
+                            <button type="button" class="fw-bold text-start nav-link " data-bs-toggle="tab"
+                                data-bs-target="#estado6">Bahia</button>
+                        </nav>
+                    </aside>
+
+                    <!-- Cidades -->
+                    <div class="col-md-10">
+                        <div class="tab-content">
+
+                            <!-- Estado 1 -->
+
+                            <div class="tab-pane active" id="estado1">
+                                <div class="row">
+
+                                    <div class="col-md-3">
+                                        <img src="images/cidades-brasil/minas-gerais/ouro-preto.jpg" alt="Ouro preto"
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Ouro Preto</h5>
+                                        <p>Conhecida por sua arquitetura barroca, igrejas históricas e minas de ouro.
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="images/cidades-brasil/minas-gerais/tiradentes.jpg" alt="Tiradentes"
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Tiradentes</h5>
+                                        <p> Uma cidade colonial bem preservada, famosa por suas ruas de paralelepípedos,
+                                            igrejas e museus.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="images/cidades-brasil/minas-gerais/belo-horizonte.jpg"
+                                            alt="Belo horizonte" class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Belo Horizonte</h5>
+                                        <p>A capital do estado, oferece uma mistura de cultura, gastronomia e história,
+                                            além de ser um ótimo ponto de partida para explorar outras partes de Minas
+                                            Gerais.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="images/cidades-brasil/minas-gerais/sao-joao.jpg"
+                                            alt="São João del Rei" class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">São João Del Rei</h5>
+                                        <p>Outra cidade histórica com uma atmosfera encantadora, conhecida por suas
+                                            igrejas e festivais culturais.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="images/cidades-brasil/minas-gerais/uberlandia.jpg" alt="Uberlândia"
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Uberlândia</h5>
+                                        <p>Uberlândia é uma excelente opção para quem busca uma experiência única em
+                                            Minas Gerais.</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <!-- Estado 2 -->
+
+                            <div class="tab-pane" id="estado2">
+                                <div class="row">
+
+                                    <div class="col-md-3">
+                                        <img src="images/cidades-brasil/pernambuco/recife.jpg" alt="Recife"
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Recife</h5>
+                                        <p>Recife, a "Veneza Brasileira", encanta com sua arquitetura colonial, praias
+                                            deslumbrantes e vida noturna animada.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="images/cidades-brasil/pernambuco/Caruaru.jpg" alt="Caruaru"
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Caruaru</h5>
+                                        <p>Famosa pelo Maior São João do Mundo, Caruaru é um importante polo cultural do
+                                            interior de Pernambuco, conhecida por sua feira de artesanato e pela
+                                            culinária regional.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="images/cidades-brasil/pernambuco/fernando-noronha.jpg"
+                                            alt="Fernando de Noronha" class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Fernando de Noronha</h5>
+                                        <p>Arquipélago de beleza incomparável, com praias de tirar o fôlego, vida
+                                            marinha exuberante e cenários naturais preservados, ideal para os amantes do
+                                            ecoturismo e mergulho.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- Estado 3 -->
+
+                            <div class="tab-pane" id="estado3">
+                                <div class="row">
+
+                                    <div class="col-md-3">
+                                        <img src="https://via.placeholder.com/261x167" alt=""
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Cidade1</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis
+                                            deserunt</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="https://via.placeholder.com/261x167" alt=""
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Cidade2</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis
+                                            deserunt</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="https://via.placeholder.com/261x167" alt=""
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Cidade3</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis
+                                            deserunt</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- Estado 4 -->
+
+                            <div class="tab-pane" id="estado4">
+                                <div class="row">
+
+                                    <div class="col-md-3">
+                                        <img src="https://via.placeholder.com/261x167" alt=""
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Cidade1</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis
+                                            deserunt</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="https://via.placeholder.com/261x167" alt=""
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Cidade2</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis
+                                            deserunt</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="https://via.placeholder.com/261x167" alt=""
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Cidade3</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis
+                                            deserunt</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- Estado 5 -->
+
+                            <div class="tab-pane" id="estado5">
+                                <div class="row">
+
+                                    <div class="col-md-3">
+                                        <img src="https://via.placeholder.com/261x167" alt=""
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Cidade1</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis
+                                            deserunt</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="https://via.placeholder.com/261x167" alt=""
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Cidade2</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis
+                                            deserunt</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="https://via.placeholder.com/261x167" alt=""
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Cidade3</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis
+                                            deserunt</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- Estado 6 -->
+
+                            <div class="tab-pane" id="estado6">
+                                <div class="row">
+
+                                    <div class="col-md-3">
+                                        <img src="https://via.placeholder.com/261x167" alt=""
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Cidade1</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis
+                                            deserunt</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="https://via.placeholder.com/261x167" alt=""
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Cidade2</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis
+                                            deserunt</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="https://via.placeholder.com/261x167" alt=""
+                                            class="d-block w-100 img-personalizada">
+                                        <h5 class="fw-bold m-2">Cidade3</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis
+                                            deserunt</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center pb-5">Fale <span class="">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" placeholder="Digite seu nome"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold ">Seu e-mail</label>
+                                <input type="text" id="email" class="form-control" placeholder="Digite seu e-mail"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold ">Seu mensagem</label>
+                                <textarea class="form-control" id="mensagem"
+                                    placeholder="Digite sua sugestão de viagem, melhoria do site, etc."
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold botao-padrao">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="fs-4 ">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-4 ms-4">
+                                    <a href="#">
+                                        <i class="bi bi-linkedin "></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4 ms-4 me-4">
+                                    <a href="#">
+                                        <i class="bi bi-instagram "></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp "></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0"><i class="bi bi-c-circle"></i> 2024 Maxwel Silva. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item social-links-footer"><a href="#" class="text-light"><i
+                                    class="bi bi-linkedin"></i></a>
+                        </li>
+                        <li class="list-inline-item social-links-footer"><a href="#" class="text-light"><i
+                                    class="bi bi-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item social-links-footer"><a href="#" class="text-light"><i
+                                    class="bi bi-whatsapp"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Modal 1-->
+    <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="modal-1-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-5 fw-bold" id="modal-1-label">Suiça</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./images/lugares-visitados/1.2.jpg" class="w-100" alt="">
+                    <p class="pt-3 "> <b>Data da Viagem: 10 de Fevereiro de 2024 <br></b></p>
+                    <p>
+                        Após desembarcar em Zurique, fui recebido pela atmosfera acolhedora e pitoresca desta cidade
+                        suíça. Passei meus dias explorando as ruas de paralelepípedos, cercado por arquitetura
+                        encantadora e aromas tentadores de chocolate suíço. À noite, fui cativado pela tranquilidade dos
+                        Alpes, enquanto saboreava uma fondue de queijo em um chalé de montanha, cercado por picos
+                        nevados e estrelas cintilantes no céu. Uma experiência verdadeiramente mágica que ficará gravada
+                        em minha memória para sempre.
+                    </p>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn btn-secondary botao-padrao" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="modal-1-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-5 fw-bold" id="modal-1-label">Monte Fuji</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./images/lugares-visitados/2.2.jpg" class="w-100" alt="">
+                    <p class="pt-3 "> <b>Data da Viagem: 20 de abril de 2024
+                            <br></b></p>
+                    <p>
+                        Ao chegar aos pés do Monte Fuji, fui envolvido pela majestade silenciosa desta icônica montanha
+                        japonesa. Cada passo que dei em direção ao seu cume parecia uma jornada espiritual, uma busca
+                        pela serenidade e pela beleza pura da natureza. À medida que me aventurava pelas trilhas
+                        sinuosas, envolvido pela névoa misteriosa, fui conquistado pela grandiosidade do Monte Fuji e
+                        pela simplicidade tranquila de sua paisagem circundante. À noite, sob o céu estrelado, sentei-me
+                        em contemplação, maravilhado com a imponência desta montanha sagrada que há séculos inspira o
+                        espírito humano. Uma experiência transcendental que tocou minha alma e me deixou maravilhado
+                        diante da grandiosidade do mundo natural.
+                    </p>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn btn-secondary botao-padrao" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="modal-1-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-5 fw-bold" id="modal-1-label">Paris</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./images/lugares-visitados/3.2.jpg" class="w-100" alt="">
+                    <p class="pt-3 "> <b>Data da Viagem: 5 de junho de 2024
+                            <br></b></p>
+                    <p>
+                        Paris, a Cidade Luz, me recebeu de braços abertos com seu charme inconfundível. Ao caminhar
+                        pelas ruas de paralelepípedos, fui envolvido pela elegância atemporal da arquitetura parisiense
+                        e pelo aroma tentador de croissants frescos. Cada esquina revelava uma nova maravilha: a
+                        majestosa Torre Eiffel pontilhando o horizonte, os magníficos museus abrigando tesouros da arte
+                        mundial e os jardins serenos, onde o tempo parece desacelerar. À noite, as margens do rio Sena
+                        se transformavam em uma paisagem de conto de fadas, com as luzes cintilantes refletindo nas
+                        águas calmas. Paris, com sua beleza romântica e sua rica história, cativou-me profundamente,
+                        deixando uma impressão duradoura em meu coração viajante.
+                    </p>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn btn-secondary botao-padrao" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="modal-4" tabindex="-1" aria-labelledby="modal-1-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-5 fw-bold" id="modal-1-label">Toronto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./images/lugares-visitados/4.2.jpg" class="w-100" alt="">
+                    <p class="pt-3 "> <b>Data da Viagem: 15 de março de 2024
+                            <br></b></p>
+                    <p>
+                        Desembarquei em Toronto, mergulhando na atmosfera vibrante desta cidade cosmopolita. Passei meus
+                        dias explorando os diversos bairros, cada um com sua própria personalidade única. De Yonge
+                        Street à beira do lago Ontário, Toronto cativou-me com sua fusão de cultura, arte e gastronomia.
+                        À noite, fui atraído pelas luzes cintilantes da CN Tower, que pontuavam o horizonte, enquanto
+                        saboreava a deliciosa culinária multicultural da cidade. Uma experiência urbana inesquecível que
+                        deixou uma marca duradoura em minha alma viajante.
+                    </p>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn btn-secondary botao-padrao" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
