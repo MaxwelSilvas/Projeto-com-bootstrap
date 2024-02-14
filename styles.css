@@ -20,7 +20,7 @@ header {
     font-variation-settings:
         "MORF" 15,
         "SHLN" 50;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .nav .nav-link {
@@ -84,4 +84,26 @@ footer {
 .img-personalizada{
     width: 261px;
     height: 161px; 
+}
+
+
+
+@media (max-width: 768px) {
+    .carousel-item {
+        text-align: center; 
+      }
+
+    .carousel-item img {
+        max-width: auto; 
+        height: 500px;
+        object-fit: cover; 
+        object-position: center;
+    }
+
+    .img-personalizada{
+        width: 261px;
+        height: 360px; 
+    }
+    
+
 }
